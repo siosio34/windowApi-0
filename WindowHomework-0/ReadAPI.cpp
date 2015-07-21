@@ -140,8 +140,8 @@ int main()
 	printf("%s", strMultibyte2);
 	buf = NULL;
 	//
-	//DeleteFileW(file_name);
-	//DeleteFileW(file_name2);
+	DeleteFileW(file_name);
+	DeleteFileW(file_name2);
 	
 	return 0;
 }
